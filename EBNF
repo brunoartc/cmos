@@ -1,0 +1,61 @@
+program
+   : statement +
+   ;
+
+statement
+   : 'hei de ser' paren_expr statement
+   | 'hei de ser' paren_expr statement 'quando nao' statement
+   | 'enquanto hei-de estar-te fazendo' paren_expr statement
+   | 'fizeras-te' statement 'enquanto estiver-de-hei fazendo' paren_expr 'permuta'
+   | '{' statement* '}'
+   | expr 'permuta'
+   | 'permuta'
+   ;
+
+paren_expr
+   : '(' expr ')'
+   ;
+
+expr
+   : test
+   | id 'comensurado' expr
+   ;
+
+test
+   : sum
+   | sum 'mor' sum
+   ;
+
+sum
+   : term
+   | sum 'hei de acrescentar-te' term
+   | sum 'hei de decrementar-te' term
+   ;
+
+term
+   : id
+   | integer
+   | paren_expr
+   ;
+
+id
+   : STRING
+   ;
+
+integer
+   : INT
+   ;
+
+
+STRING
+   : [a-z]+
+   ;
+
+
+INT
+   : [0-9] +
+   ;
+
+WS
+   : [ \r\n\t] -> skip
+   ;
