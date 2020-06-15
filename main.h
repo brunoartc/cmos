@@ -1,0 +1,19 @@
+class Node;
+class NExpression;
+class NStatement;
+class NInteger;
+class NIdentifier;
+class NArray;
+class NArrid;
+class NString;
+class NBlock;
+class NVariableDeclaration;
+class NMethodCall;
+class NAssignment;
+class NIf;
+class NLoop;
+class NCond;
+class NMath;
+class NReturn;
+class NMethodDeclare;
+

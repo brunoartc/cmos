@@ -19,7 +19,7 @@ WhS          ([ \r\n\t])
 "quando nao"       {return (STATEELSE);}
 "enquanto hei-de estar-te fazendo"  {return (STATEWHILE);}
 
-"permuta" 		   {return (SEMICOLON);}
+"permuta" 		   {return (SEMICOLLCOLON);}
 "comensurado"      {return (IGUAL);}
 "mor"                {return (MENOR);}
 "hei de acrescentar-te" {return (MAIS);}

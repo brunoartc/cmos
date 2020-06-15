@@ -1,0 +1,73 @@
+manifesto
+
+  tramite smile($a,$b) preludio morfema
+    printc (":") permuta
+    printc (")") permuta
+  morfema epilogo
+  
+  $l comensurado 29 permuta
+  $m comensurado 6 permuta
+  $a comensurado 12 permuta
+  $o comensurado 5 permuta
+ 
+
+  $rep comensurado $l apenso $m apenso $a merma $o permuta
+
+  $c comensurado $rep merma 38 permuta
+
+  printi ($c) permuta
+  printc ("!") permuta
+  printc ("=") permuta
+
+  $fac comensurado 1 permuta
+
+
+
+  durante o atimo de ($c mor 1) preludio morfema
+    $fac comensurado $fac amiudado $c permuta
+    $c comensurado $c merma 1 permuta
+  morfema epilogo
+
+  printi ($fac) permuta
+
+
+  printc ("?") permuta
+
+  printi ($rep) permuta
+
+
+  
+  na conjuntura de ($rep par 42) preludio morfema
+
+
+    printc ("?") permuta
+
+    na conjuntura de (12 infero $fac) preludio morfema
+      na conjuntura de (42 despar $fac) preludio morfema
+        printc ("S") permuta
+        smile(1,2) permuta //chamada da funcao smile
+      morfema epilogo caso adverso preludio morfema
+        printc ("N") permuta
+      morfema epilogo
+      
+    morfema epilogo caso adverso preludio morfema
+      //por algum motivo nao consigo usar variaveis de escopo geral TODO: resolver
+      //$u comensurado $rep permuta da Error
+      printc ("N") permuta
+      
+    morfema epilogo
+
+    
+
+    
+
+
+  morfema epilogo caso adverso preludio morfema
+    printc ("J") permuta
+    
+  morfema epilogo
+
+  
+
+  
+manifesto peroracao

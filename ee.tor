@@ -1,0 +1,15 @@
+manifesto
+    function aa($a,$b) preludio morfema
+        printc(" ") permuta
+        printc("D") permuta
+        printc("O") permuta
+        printc("N") permuta
+        printc("E") permuta
+        printi($a) permuta
+    morfema epilogo
+
+    aa(1,2) permuta
+
+
+manifesto peroracao
+
